@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCQ Taps!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">TEAM</a></li>
+                    <li><a href="blog.html">PRODUCT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Future of Hygiene: Sensor Taps!</h1>
+            <p>Using traditional taps isn't easy. Upgrade to our sensor taps for convenience!</p>
+            <a href="about.html" class="hero-btn">Visit us to Know More</a>
+        </div>
+    </section>
+
+    <!---------------- Products ----------->
+<section class="course">
+    <h1>Products We Offer</h1>
+    <p>"Master hygiene with our advanced sensor taps. Whether you're upgrading from traditional taps or seeking the latest innovation, our taps cater to all needs."</p>
+    <img src="images/tap.jfif" alt="images/tap.jfif">
+    <div>
+        <h1 class="oo">Why Choose Our Sensor Taps?</h1>
+<h2 class="title">Innovative Technology:</h2>
+<p class="o">Enjoy cutting-edge sensor technology designed for ease and efficiency.</p>
+<h2 class="title">Hygienic Solution:</h2>
+<p class="o">Maintain a cleaner environment with touchless operation.</p>
+<h2 class="title">Durable and Reliable:</h2>
+<p class="o">Experience long-lasting performance with our high-quality sensor taps.
+
+
+
+
+
+</p>
+</div>
+    
+</section>
+
+    <!--------- Call To Action ----->
+    <section class="cta">
+        <h1>Feel Free To Contact Us Anywhere <br> From The World</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--------- Footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Welcome to our sensor tap website, where we are dedicated to providing high-quality, touchless solutions for homes, businesses, and institutions. Our mission is <br> to enhance hygiene and convenience through innovative and reliable technology.</p>
+        <div class="icons">
+            <a href="https://www.youtube.com/channel/UC_YP0HDhhMkt6P25iJ5iilw"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/academic-sphere-b09420310/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 AcademicSphere. All rights reserved.</p>
+    </section>
+
+    <!------- JavaScript for Toggle Menu ------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
